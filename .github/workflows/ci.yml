@@ -1,0 +1,41 @@
+name: CI
+
+'on':
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.9', '3.10', '3.11', '3.12', '3.13']
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run standard-library tests
+        run: python -B -S -m unittest discover -s tests -v
+
+      - name: Smoke-test both offline demos
+        shell: bash
+        run: |
+          set -euo pipefail
+          scripts=skills/trainlens/scripts
+          for suite in llm-sft mmseg-cityscapes; do
+            demo="skills/trainlens/assets/demo-logs/$suite"
+            python -B -S "$scripts/scan_runs.py" "$demo"
+            python -B -S "$scripts/compare_runs.py" "$demo" --config-diff --per-class --format md
+            python -B -S "$scripts/diagnose.py" "$demo" --format md
+            python -B -S "$scripts/render_report.py" "$demo" --per-class
+          done

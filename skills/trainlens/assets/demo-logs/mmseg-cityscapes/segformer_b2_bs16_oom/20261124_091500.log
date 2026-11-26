@@ -1,0 +1,7 @@
+11/24 09:15:12 - mmengine - INFO - Iter(train) [  500/40000]  lr: 1.2000e-04  loss: 0.6120  memory: 22450
+11/24 09:18:45 - mmengine - INFO - Iter(train) [ 1000/40000]  lr: 1.1900e-04  loss: 0.5480  memory: 23120
+11/24 09:19:03 - mmengine - ERROR - Training crashed during forward pass
+Traceback (most recent call last):
+  File "tools/train.py", line 104, in main
+    runner.train()
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.40 GiB. GPU 0 has a total capacity of 23.65 GiB of which 512.00 MiB is free.

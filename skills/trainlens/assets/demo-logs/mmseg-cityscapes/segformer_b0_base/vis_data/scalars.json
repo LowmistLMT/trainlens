@@ -1,0 +1,11 @@
+{"step": 4000, "iter": 4000, "loss": 0.482, "lr": 5.8e-05, "grad_norm": 1.45, "memory": 7420}
+{"step": 8000, "iter": 8000, "loss": 0.365, "lr": 5.2e-05, "grad_norm": 1.21, "memory": 7420}
+{"step": 8000, "mIoU": 66.40, "mAcc": 75.10, "aAcc": 94.12, "IoU.road": 96.8, "IoU.sidewalk": 76.2, "IoU.building": 89.4, "IoU.pole": 47.1, "IoU.person": 72.3, "IoU.car": 91.5}
+{"step": 16000, "iter": 16000, "loss": 0.294, "lr": 4.0e-05, "grad_norm": 1.05, "memory": 7420}
+{"step": 16000, "mIoU": 70.85, "mAcc": 79.40, "aAcc": 95.01, "IoU.road": 97.3, "IoU.sidewalk": 79.8, "IoU.building": 90.8, "IoU.pole": 52.4, "IoU.person": 75.9, "IoU.car": 92.8}
+{"step": 24000, "iter": 24000, "loss": 0.248, "lr": 2.6e-05, "grad_norm": 0.92, "memory": 7420}
+{"step": 24000, "mIoU": 73.12, "mAcc": 81.60, "aAcc": 95.44, "IoU.road": 97.6, "IoU.sidewalk": 81.4, "IoU.building": 91.5, "IoU.pole": 55.0, "IoU.person": 77.6, "IoU.car": 93.4}
+{"step": 36000, "iter": 36000, "loss": 0.214, "lr": 8.0e-06, "grad_norm": 0.84, "memory": 7420}
+{"step": 36000, "mIoU": 74.82, "mAcc": 83.05, "aAcc": 95.72, "IoU.road": 97.8, "IoU.sidewalk": 82.9, "IoU.building": 91.9, "IoU.pole": 56.8, "IoU.person": 78.4, "IoU.car": 93.8}
+{"step": 40000, "iter": 40000, "loss": 0.209, "lr": 1.0e-06, "grad_norm": 0.81, "memory": 7420}
+{"step": 40000, "mIoU": 74.68, "mAcc": 82.90, "aAcc": 95.69, "IoU.road": 97.7, "IoU.sidewalk": 82.7, "IoU.building": 91.8, "IoU.pole": 56.5, "IoU.person": 78.2, "IoU.car": 93.7}

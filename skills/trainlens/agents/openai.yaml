@@ -1,0 +1,6 @@
+interface:
+  display_name: "TrainLens"
+  short_description: "Read-only AI training experiment ledger, ablation root-cause analyst, and remote GPU inspector."
+  default_prompt: "Use $trainlens to scan my training logs into a compact experiment ledger, compare runs with config and git diffs, diagnose anomalies (NaN/OOM/stalls/overfitting), or inspect remote GPU servers over SSH without modifying any code or processes."
+policy:
+  allow_implicit_invocation: true

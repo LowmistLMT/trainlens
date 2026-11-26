@@ -1,0 +1,23 @@
+{
+  "best_metric": 1.12,
+  "best_model_checkpoint": "checkpoint-500",
+  "epoch": 3.0,
+  "global_step": 600,
+  "max_steps": 600,
+  "is_world_process_zero": true,
+  "log_history": [
+    {"step": 50, "epoch": 0.25, "loss": 2.45, "grad_norm": 1.42, "learning_rate": 9.8e-05},
+    {"step": 100, "epoch": 0.5, "loss": 1.92, "grad_norm": 1.18, "learning_rate": 9.5e-05},
+    {"step": 100, "epoch": 0.5, "eval_loss": 2.04, "eval_runtime": 18.2},
+    {"step": 200, "epoch": 1.0, "loss": 1.48, "grad_norm": 0.96, "learning_rate": 8.4e-05},
+    {"step": 200, "epoch": 1.0, "eval_loss": 1.56, "eval_runtime": 18.1},
+    {"step": 300, "epoch": 1.5, "loss": 1.21, "grad_norm": 0.85, "learning_rate": 6.5e-05},
+    {"step": 300, "epoch": 1.5, "eval_loss": 1.31, "eval_runtime": 18.4},
+    {"step": 400, "epoch": 2.0, "loss": 1.04, "grad_norm": 0.78, "learning_rate": 4.2e-05},
+    {"step": 400, "epoch": 2.0, "eval_loss": 1.18, "eval_runtime": 18.0},
+    {"step": 500, "epoch": 2.5, "loss": 0.95, "grad_norm": 0.72, "learning_rate": 1.8e-05},
+    {"step": 500, "epoch": 2.5, "eval_loss": 1.12, "eval_runtime": 18.3},
+    {"step": 600, "epoch": 3.0, "loss": 0.89, "grad_norm": 0.69, "learning_rate": 1.0e-06},
+    {"step": 600, "epoch": 3.0, "eval_loss": 1.15, "eval_runtime": 18.2}
+  ]
+}

@@ -1,0 +1,2 @@
+{"step": 500, "iter": 500, "loss": 0.612, "lr": 0.00012, "grad_norm": 1.92, "memory": 22450}
+{"step": 1000, "iter": 1000, "loss": 0.548, "lr": 0.000119, "grad_norm": 1.84, "memory": 23120}

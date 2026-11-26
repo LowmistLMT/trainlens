@@ -1,0 +1,12 @@
+{
+  "model": "segformer_mit-b2",
+  "dataset": "cityscapes",
+  "optimizer": "AdamW",
+  "lr": 0.00012,
+  "weight_decay": 0.01,
+  "batch_size": 16,
+  "crop_size": "1024x1024",
+  "data_aug": "photometric+rare_class_sampling",
+  "max_iters": 40000,
+  "git_commit": "778899c"
+}

@@ -1,0 +1,16 @@
+{
+  "best_metric": 1.88,
+  "best_model_checkpoint": "checkpoint-100",
+  "epoch": 1.25,
+  "global_step": 250,
+  "max_steps": 600,
+  "is_world_process_zero": true,
+  "log_history": [
+    {"step": 50, "epoch": 0.25, "loss": 2.31, "grad_norm": 1.95, "learning_rate": 0.00049},
+    {"step": 100, "epoch": 0.5, "loss": 1.79, "grad_norm": 4.82, "learning_rate": 0.00046},
+    {"step": 100, "epoch": 0.5, "eval_loss": 1.88, "eval_runtime": 18.0},
+    {"step": 150, "epoch": 0.75, "loss": 2.15, "grad_norm": 28.6, "learning_rate": 0.00041},
+    {"step": 200, "epoch": 1.0, "loss": 4.92, "grad_norm": 142.7, "learning_rate": 0.00035},
+    {"step": 250, "epoch": 1.25, "loss": "NaN", "grad_norm": "Inf", "learning_rate": 0.00028}
+  ]
+}

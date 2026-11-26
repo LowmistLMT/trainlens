@@ -1,0 +1,4 @@
+[2026-11-24 14:10:02] INFO Starting training: Qwen2.5-7B-Instruct (fp16=True, max_grad_norm=0.0)
+[2026-11-24 14:15:40] WARNING step=200 grad_norm=142.70 exceeds healthy range
+[2026-11-24 14:17:12] ERROR step=250 loss=nan detected; aborting training loop
+RuntimeError: Loss became NaN at global_step=250 (fp16 overflow suspected)
